@@ -47,7 +47,7 @@
                                 </div>
                             </li>
                             <li class="nav-item dropdown no-arrow">
-                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><span class="d-none d-lg-inline mr-2 text-gray-600 small" id="nama">Admin</span><img class="border rounded-circle img-profile" src="assets/img/Logo1.png"></a>
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><span id="nama">Admin</span><img class="border rounded-circle img-profile" src="assets/img/Logo1.png"></a>
                                     <div class="dropdown-menu shadow dropdown-menu-right animated--grow-in"><a class="dropdown-item" onclick="logout()"><i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Logout</a>
                                     </div>
                                 </div>
@@ -200,6 +200,22 @@
                 </div>
             </footer>
         </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Please login</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">You are not authorized to access this page</div>
+                    <div class="modal-footer">
+                        <a href="index.html" class="btn btn-primary" style="background: #F9BE01" data-dismiss="modal">Close</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="assets/js/jquery1.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap1.min.js"></script>
