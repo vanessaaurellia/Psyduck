@@ -16,7 +16,7 @@
     color: black;
 }
 
-.fa-home:hover, .fa-tshirt:hover, .fa-shopping-bag:hover, .fa-users:hover, .fa-box:hover, .fa-user-tag:hover, .navlink:hover {
+#logo:hover, .navlink:hover {
     color: black!important;
     font-weight: 700;
 }
