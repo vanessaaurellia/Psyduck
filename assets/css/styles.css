@@ -36,3 +36,8 @@
     color: #1f2040!important;
     padding-right: 7px;
 }
+
+input[type=checkbox]:checked + #strikethrough{
+    text-decoration: line-through;
+    opacity: 60%;
+}
