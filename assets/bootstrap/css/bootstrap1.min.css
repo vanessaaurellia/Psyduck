@@ -10184,11 +10184,11 @@
  }
  
  .topbar #sidebarToggleTop:hover {
-   background-color: #eaecf4;
+   background-color: #000000;
  }
  
  .topbar #sidebarToggleTop:active {
-   background-color: #dddfeb;
+   background-color: #000000;
  }
  
  .topbar .navbar-search {
@@ -10640,15 +10640,15 @@
  }
  
  .sidebar-light #sidebarToggle {
-   background-color: #eaecf4;
+   background-color: #000000;
  }
  
  .sidebar-light #sidebarToggle:after {
-   color: #b7b9cc;
+   color: #000000;
  }
  
  .sidebar-light #sidebarToggle:hover {
-   background-color: #dddfeb;
+   background-color: #000000;
  }
  
  .sidebar-dark .sidebar-brand {
@@ -10680,19 +10680,19 @@
  }
  
  .sidebar-dark #sidebarToggle {
-   background-color: hsla(0,0%,100%,.2);
+   background-color: rgba(0, 0, 0, 0.2);
  }
  
  .sidebar-dark #sidebarToggle:after {
-   color: hsla(0,0%,100%,.5);
+   color: rgba(0, 0, 0, 0.5);
  }
  
  .sidebar-dark #sidebarToggle:hover {
-   background-color: hsla(0,0%,100%,.25);
+   background-color: rgba(0, 0, 0, 0.25);
  }
  
  .sidebar-dark.toggled #sidebarToggle:after {
-   color: hsla(0,0%,100%,.5);
+   color: rgba(0, 0, 0, 0.5);
  }
  
  .btn-circle {
