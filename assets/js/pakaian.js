@@ -18,7 +18,7 @@ function buildTable(data){
                 <td>${data[i].harga_jual}</td>
                 <td>${data[i].harga_beli}</td>
                 <td>${data[i].stok}</td>
-                <td><a href="/updateappa/${data[i].id_pakaian}"><button>Update</button></a></td>
+                <td><a href="/updateappa/${data[i].id_pakaian}"><button class="btn btn-secondary">Update</button></a></td>
             </tr>`
     table.innerHTML += row
 
