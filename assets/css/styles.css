@@ -41,3 +41,7 @@ input[type=checkbox]:checked + #strikethrough{
     text-decoration: line-through;
     opacity: 60%;
 }
+
+.modal-body{
+    text-align: left!important;
+}
