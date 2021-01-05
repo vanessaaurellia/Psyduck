@@ -10,4 +10,8 @@
     "name": "Vanessa Aurellia",
     "email": "vanessaaurellia01@gmail.com",
     "password": "admin123"
+}, {
+    "name": "Guest",
+    "email": "psyduckguest123@gmail.com",
+    "password": "admin123"
 }]
